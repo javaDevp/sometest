@@ -1,0 +1,15 @@
+﻿table {
+    border: 1px solid #0000ff;
+    border-collapse: collapse;
+}
+
+table th {
+    border: 1px solid #0000ff;
+    border-collapse: collapse;
+    background: #d3d3d3;
+}
+
+table tr:nth-child(odd) td {
+    border: 1px solid #0000ff;
+    background: #f8f8f8;
+}

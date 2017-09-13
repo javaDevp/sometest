@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="Scripts/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="Scripts/themes/icon.css">
+    <script type="text/javascript" src="Scripts/jquery.min.js"></script>
+    <script type="text/javascript" src="Scripts/jquery.easyui.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript">
+
+		$(document).ready(function(){
+			$("#btnReset").click(function(){
+				$("#loginForm").form("clear");
+			});
+			$("#btnLogin").click(function(){
+
+			});
+		});
+    </script>
+</head>
+<body>
+    <div id="loginDlg" class="easyui-dialog" title="登录窗口" data-options="iconCls:'icon-lock'" style="width: 400px; height: 300px;">
+        <form id="loginForm">
+            <h2>MyErp</h2>
+            <table style="height:190px;">
+                <tr>
+                    <td style="width:40%;text-align:center;">
+                        <img src='#' />
+                    </td>
+                    <td>
+                        <ul>
+                            <li><input id="username" class="easyui-textbox" data-options="required:true,prompt:'用户名',iconCls:'icon-man',iconWidth:38" /></li>
+                            <li><input id="password" class="easyui-textbox" type="password" data-options="required:true,prompt:'密码',iconCls:'icon-lock',iconWidth:38" /></li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+            <div class="panel-footer" style="padding:3px 0 2px 0;text-align:center">
+                <a href="#" id="btnLogin" class="easyui-linkbutton" iconcls="icon-lock">登录</a>
+                <a href="#" id="btnReset" class="easyui-linkbutton" iconcls="icon-reload">重置</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

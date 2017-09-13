@@ -1,0 +1,6 @@
+[
+    { "GroupName": "基础数据", "MenuItems": [ { "Src": "test.html", "MenuName": "组织分解结构" }, { "Src": "test.html", "MenuName": "岗位分解结构" }, { "Src": "test.html", "MenuName": "用户管理" } ] },
+    { "GroupName": "权限管理", "MenuItems": [ { "Src": "test.html", "MenuName": "角色管理" }, { "Src": "test.html", "MenuName": "用户权限分配" } ] },
+    { "GroupName": "流程管理", "MenuItems": [ { "Src": "test.html", "MenuName": "流程预定义" }, { "Src": "test.html", "MenuName": "流程监控" } ] },
+    { "GroupName": "系统集成管理", "MenuItems": [ { "Src": "test.html", "MenuName": "手动同步数据" }, { "Src": "test.html", "MenuName": "数据同步日志" } ] }
+]
