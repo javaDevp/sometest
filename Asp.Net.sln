@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quartz.Demo", "Quartz.Demo\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyErp", "MyErp\MyErp.csproj", "{34BADF33-898E-4FBE-AA99-A3E7AB6FEB1F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lucene.Test", "Lucene.Test\Lucene.Test.csproj", "{E0801C36-070A-49A0-AC08-4407063A8DA6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{34BADF33-898E-4FBE-AA99-A3E7AB6FEB1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34BADF33-898E-4FBE-AA99-A3E7AB6FEB1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34BADF33-898E-4FBE-AA99-A3E7AB6FEB1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0801C36-070A-49A0-AC08-4407063A8DA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0801C36-070A-49A0-AC08-4407063A8DA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0801C36-070A-49A0-AC08-4407063A8DA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0801C36-070A-49A0-AC08-4407063A8DA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
